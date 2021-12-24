@@ -6,3 +6,6 @@ try:
 except:
     os.system(f'py -m pip install pyinstaller')
     os.system(f'pyinstaller --onefile {ok}')
+os.system('cls')
+print('Done!')
+input('')
